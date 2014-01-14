@@ -2,15 +2,21 @@
 #define PIECE_H
 #include <string>
 //Author Kevin Reid
+
+using namespace std;
+
 class Piece {
 protected:
 
 	friend class Square;
 	friend class CheckerSquare;
 	friend class SnakeSquare;
-	std::string representation;
+	
+	string representation;
 	int owner;
+	
 public:
 	Piece();
+	
 };
 #endif

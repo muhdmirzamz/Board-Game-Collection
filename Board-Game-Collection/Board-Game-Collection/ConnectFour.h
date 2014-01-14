@@ -5,6 +5,7 @@
 // Author Richard Kavanagh
 
 struct ConnectFourBoard {
+	// a multidimensional array of square objects
 	Square grid [6][7];
 };
 
@@ -13,6 +14,8 @@ class ConnectFour : public Game {
 
 public:
 	ConnectFour();
+	
+	// inherited pure virtual functions
 	void drawScreen();
 	bool checkWin(int currentPlayer);
 	void takeTurn(int currentPlayer);

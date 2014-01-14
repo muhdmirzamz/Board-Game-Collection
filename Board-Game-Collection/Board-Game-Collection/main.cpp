@@ -14,6 +14,8 @@ int main() {
 	cout << "(1) Connect Four\n";
 	cout << "(2) Draughts\n";
 	cout << "(3) Snakes and ladders\n";
+	
+	cout << "Your choice: ";
 	cin >> choice;
 	
 
@@ -24,17 +26,21 @@ int main() {
 			c.play();				
 			break;
 		}
-         	case 2:{
-           		Checkers d;
+		case 2:{
+			Checkers d;
 			d.play();
-            		break;
+			break;
 		}
-         	case 3:{
-            		Snakes s;
+		case 3:{
+			Snakes s;
 			s.play();
 			break;
 		}
-     	}
+		
+		default:{
+			break;
+		}
+	}
 	return 0;
 }
 

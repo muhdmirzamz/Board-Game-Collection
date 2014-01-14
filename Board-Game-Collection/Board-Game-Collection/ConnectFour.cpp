@@ -25,9 +25,10 @@ using namespace std;
 		cout<<" 1    2    3    4    5    6    7\n";
 		for(int i = 0; i < rows; i++) {
 			for (int x = 0; x < columns; x++){
-                        	cout<< "[ " << b.grid[i][x].getRepresentation() << " ]";
-                        }
-                        cout<< endl;
+				cout<< "[ " << b.grid[i][x].getRepresentation() << " ]";
+			}
+			
+			cout<< endl;
 		}	
 	}
 
