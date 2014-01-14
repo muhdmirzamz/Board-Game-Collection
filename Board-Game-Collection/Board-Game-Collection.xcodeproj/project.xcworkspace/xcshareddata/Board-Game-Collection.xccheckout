@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5A4C8DAE-0515-4B47-8478-32F970A5EFAE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Board-Game-Collection</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D08AE1AC-A954-476C-A139-4E040900A524</key>
+		<string>https://github.com/muhdmirzamz/Board-Game-Collection.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Board-Game-Collection/Board-Game-Collection.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D08AE1AC-A954-476C-A139-4E040900A524</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/muhdmirzamz/Board-Game-Collection.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D08AE1AC-A954-476C-A139-4E040900A524</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D08AE1AC-A954-476C-A139-4E040900A524</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Board-Game-Collection</string>
+		</dict>
+	</array>
+</dict>
+</plist>
