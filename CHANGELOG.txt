@@ -1,0 +1,6 @@
+CHANGELOG
+
+Jan 14 Update #1
+* Added prompt to input choices 
+* Added namespace std
+* Cleaned up whitespace
