@@ -1,6 +1,13 @@
 CHANGELOG
 
-Jan 14 Update #1
+Jan 14 Update 
 * Added prompt to input choices 
 * Added namespace std
 * Cleaned up whitespace
+
+Jan 15 Update
+* Fixed typos
+* Redefined structure objects
+* Added Rectangle header class
+* Completed several small functions
+* Issue with some unused variables done
