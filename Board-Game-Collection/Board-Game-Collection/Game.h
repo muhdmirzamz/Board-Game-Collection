@@ -22,7 +22,5 @@ protected:
 public:
 	void play();
 
-	
-
 };
 #endif

@@ -72,6 +72,7 @@
 		AA281159188511D900B9B20A /* Snakes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Snakes.h; path = "Board-Game-Collection/Snakes.h"; sourceTree = "<group>"; };
 		AA28115A188511D900B9B20A /* SnakeSquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SnakeSquare.h; path = "Board-Game-Collection/SnakeSquare.h"; sourceTree = "<group>"; };
 		AA28115B188511D900B9B20A /* Square.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Square.h; path = "Board-Game-Collection/Square.h"; sourceTree = "<group>"; };
+		AA4EFDF218864CEC00A045BF /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Rectangle.h; path = "Board-Game-Collection/Rectangle.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +89,7 @@
 		AA28112B188510FE00B9B20A = {
 			isa = PBXGroup;
 			children = (
+				AA4EFDF218864CEC00A045BF /* Rectangle.h */,
 				AA281154188511D900B9B20A /* Checkers.h */,
 				AA281155188511D900B9B20A /* CheckerSquare.h */,
 				AA281156188511D900B9B20A /* ConnectFour.h */,
@@ -297,6 +299,7 @@
 				AA28113F188510FE00B9B20A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

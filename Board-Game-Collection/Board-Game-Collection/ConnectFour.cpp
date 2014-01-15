@@ -74,8 +74,15 @@ using namespace std;
 
 	 bool ConnectFour::fourRow() {
 		
+		bool fourRowbool = true;
 		int temp = lastMove;
-		checkInRow( 6 - (columnHeight[lastMove]), lastMove ); 		//  lastPiece entered x, y coordinates
+		
+		//  lastPiece entered x, y coordinates
+		if (checkInRow( 6 - (columnHeight[temp]), temp )) {
+			return false;
+		}
+		
+		return fourRowbool;
 	}
 
 

@@ -4,9 +4,7 @@ using namespace std;
 
 	Rectangle::Rectangle(){}
 
-
-
-	void getArea(){
+	void Rectangle::getArea(){
 		
 		int length,width;
 
@@ -18,7 +16,7 @@ using namespace std;
 	}
 
 
-	void getPerimeter(){
+	void Rectangle::getPerimeter(){
 
 
 		int length1,width1;

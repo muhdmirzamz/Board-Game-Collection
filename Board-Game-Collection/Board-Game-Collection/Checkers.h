@@ -5,12 +5,10 @@
 //Author Kevin Reid
 struct CheckerBoard{
 	CheckerSquare board [8][8]; //use these in loops elsewhere.
-};
+} b;
 
 class Checkers:public Game{
 protected:
-	CheckerBoard b;
-
 	int p1Pieces;
 	int p2Pieces;
 	int rowOrig;

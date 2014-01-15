@@ -49,7 +49,7 @@ using namespace std;
 	// Much longer than intended, a player class would have been ideal
 	void Snakes::takeTurn(int currentPlayer){
 		
-		srand(time(NULL));	//seeded for dice roll
+		srand(time_t(NULL));	//seeded for dice roll
 		char input;
 		do{
 			cout << "Player " << currentPlayer << " it is your go\n";
@@ -173,23 +173,32 @@ using namespace std;
 
 	//Implemented by Richard Kavanagh
 	bool Snakes::lastThreeRollsSix(){
-
-		if(currentPlayer == 1) return player1Six == 3;
-		if(currentPlayer == 2) return player2Six == 3;
+			
+		if(currentPlayer == 1) return true;
+		if(currentPlayer == 2) return true;
+		else return false;
 	}
 
 	//Implemented by Richard Kavanagh
 	int Snakes::distanceToEnd(){		// need to take into account reverse display of board
 								
-		if(currentPlayer == 1 && player1Pos.x != 0)
-			return   ((player1Pos.x * 10) + player1Pos.y);
-		else if(currentPlayer == 1 && player1Pos.x == 0)
-			return (10 + player1Pos.x) - (player1Pos.y + 1);	
-			
-		if(currentPlayer == 2 && player2Pos.x != 0)
-			return   ((player2Pos.x * 10) + player2Pos.y);
-		else if(currentPlayer == 2 && player2Pos.x == 0)
-			return (10 + player2Pos.x) - (player2Pos.y + 1);
+		if(currentPlayer == 1 && player1Pos.x != 0) {
+			return   (player1Pos.x * 10) + (player1Pos.y);
+		}
+		
+		if(currentPlayer == 1 && player1Pos.x == 0) {
+			return   (10 + player1Pos.x) - (player1Pos.y + 1);
+		}
+		
+		if(currentPlayer == 2 && player2Pos.x != 0) {
+			return   (player2Pos.x * 10) + (player2Pos.y);
+		}
+		
+		if(currentPlayer == 2 && player2Pos.x == 0) {
+			return   (10 + player2Pos.x) - (player2Pos.y + 1);
+		}
+		
+		return 1;
 				
 	}
 

@@ -12,7 +12,7 @@ int main() {
 	cout << "Welcome to the games compendium" << endl;
 	cout << "Please select which game you would like to play" << endl;
 	cout << "(1) Connect Four\n";
-	cout << "(2) Draughts\n";
+	cout << "(2) Checkers\n";
 	cout << "(3) Snakes and ladders\n";
 	
 	cout << "Your choice: ";
